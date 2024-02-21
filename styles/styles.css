@@ -1,0 +1,25 @@
+.custom-carousel-image {
+    max-height: 500px; /* adjust this value according to your needs */
+    max-width: 800px; /* adjust this value according to your needs */
+   }
+   
+   .custom-carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   }
+   
+   .custom-carousel-indicator {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px;
+    transition: background-color 0.3s;
+   }
+   
+   .custom-carousel-indicator:hover,
+   .custom-carousel-indicator.active {
+    background-color: rgba(255, 255, 255, 0.8);
+   }
